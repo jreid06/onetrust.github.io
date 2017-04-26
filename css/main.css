@@ -1,0 +1,225 @@
+html, body {
+  /*background-color: gold;*/
+  height: 100%;
+  width: 100%;
+  font-family: Quicksand, sans-serif;
+  overflow: scroll; }
+
+/* Colors */
+* {
+  margin: 0;
+  padding: 0; }
+
+footer {
+  width: 100%;
+  display: inline-block;
+  margin: 2em 0;
+  height: 70px;
+  background-color: #999; }
+  footer .copyright {
+    width: 15%;
+    float: left; }
+    @media (max-width: 600px) {
+      footer .copyright {
+        width: 100%; } }
+    footer .copyright p {
+      padding-left: 10%;
+      color: white;
+      font-size: 0.7em;
+      line-height: 70px;
+      text-transform: capitalize;
+      letter-spacing: 1px; }
+      @media (max-width: 600px) {
+        footer .copyright p {
+          text-align: center;
+          padding: 0; } }
+  footer .social {
+    width: 85%;
+    float: right; }
+    @media (max-width: 600px) {
+      footer .social {
+        width: 100%; } }
+    footer .social a {
+      float: left;
+      line-height: 70px;
+      text-decoration: none;
+      color: white;
+      text-align: center;
+      font-weight: bold; }
+      footer .social a:hover {
+        background-color: #222; }
+
+.linked {
+  background-color: #1E83AE;
+  font-size: 1.2em;
+  width: 20%; }
+
+.face {
+  background-color: #3D5B94;
+  font-size: 1.2em;
+  width: 20%; }
+
+.tweet {
+  background-color: #3DACDD;
+  font-size: 1.2em;
+  width: 20%; }
+
+.support {
+  background-color: #6dcd9a;
+  font-size: 0.8em;
+  width: 20%; }
+
+.navbar-custom {
+  background-color: #f2f2f2;
+  color: red !important; }
+
+.img-custom {
+  width: 30%;
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  transform: scale(1.3); }
+
+.icon-bar {
+  background-color: #B68537 !important; }
+
+.cf-main {
+  height: 100%; }
+
+.section1 {
+  /*background-color: orange;*/
+  height: 200px;
+  width: 100%;
+  /*position: absolute;*/
+  left: 0;
+  border: 1px solid blue; }
+
+.section-heading {
+  padding: 30px 0 30px 0;
+  background-color: #f2f2f2;
+  border-top: 3px solid darkgrey;
+  border-bottom: 3px solid darkgrey;
+  border-radius: 25x;
+  margin-bottom: 10px;
+  margin-top: 10px; }
+
+.section2 .content {
+  text-align: center;
+  /*border: 1px solid orange;*/
+  height: 300px;
+  padding: 40px 20px 40px 20px;
+  background-color: #f2f2f2;
+  border-top: 3px solid darkgrey; }
+
+.section2 .c2 {
+  background-color: #B68537 !important;
+  color: #fff; }
+
+.section3 .content {
+  text-align: center;
+  /*border: 1px solid orange;*/
+  height: 300px;
+  padding: 40px 20px 40px 20px;
+  background-color: #f2f2f2;
+  border-top: 3px solid darkgrey; }
+
+.section4 {
+  background-color: #F1F1F1; }
+
+.section4 .content {
+  text-align: center;
+  /*border: 1px solid orange;*/
+  height: 300px;
+  padding: 40px 20px 40px 20px;
+  /*background-color: #f2f2f2;*/
+  border-top: 3px solid darkgrey; }
+
+.section5 {
+  background-color: #B68537;
+  color: #fff; }
+
+.button {
+  width: 52%;
+  margin: 0 auto;
+  position: relative;
+  top: -40px;
+  /*border: 1px solid black;*/ }
+
+.btn-default {
+  width: 100% !important; }
+
+.section5 .content {
+  text-align: center;
+  /*border: 1px solid orange;*/
+  height: 300px;
+  padding: 40px 20px 40px 20px;
+  border-top: 3px solid darkgrey; }
+
+.kai_banner_container {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  overflow: hidden; }
+
+.kai_banner_container .kai_banner_body {
+  white-space: nowrap;
+  word-space: -4px;
+  letter-spacing: -6px;
+  position: relative; }
+
+.kai_banner_container .kai_banner_body a {
+  display: inline-block;
+  width: 100%;
+  background-position: center;
+  /*border: 1px solid red;*/ }
+
+.kai_banner_container .kai_banner_body img {
+  width: 100%;
+  /*border: 1px solid red;*/ }
+
+.kai_banner_container .kai_banner_bottombtns {
+  position: absolute;
+  bottom: 30px;
+  z-index: 200;
+  text-align: center;
+  width: 100%;
+  top: 150px;
+  /*border: 1px solid gold;*/ }
+
+.kai_banner_container .kai_banner_bottombtns span {
+  background-size: cover;
+  display: inline-block;
+  width: 20%;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  opacity: 0.5; }
+
+.kai_banner_container .side_btn {
+  width: 45px;
+  height: 45px;
+  border-top: 4px solid #fff;
+  border-right: 4px solid #fff;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  z-index: 200;
+  margin: 50px;
+  visibility: hidden; }
+
+.kai_banner_container:hover .side_btn {
+  visibility: visible; }
+
+.kai_banner_container .side_btn:hover {
+  border-color: rgba(0, 0, 0, 0.2);
+  border-width: 6px; }
+
+.kai_banner_container .kai_banner_prevbtn {
+  left: 2.5%;
+  transform: translateY(-100%) rotate(225deg); }
+
+.kai_banner_container .kai_banner_nextbtn {
+  right: 2.5%;
+  transform: translateY(-100%) rotate(45deg); }
+
+/*# sourceMappingURL=main.css.map */
